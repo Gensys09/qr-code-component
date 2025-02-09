@@ -1,0 +1,64 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #d5e1ef;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 1.25rem;
+  padding: 16px 16px 40px 16px;
+  max-width: 320px;
+  max-height: 499px;
+}
+
+.qr-box img {
+  border-radius: 1.05rem;
+  height: 320px;
+  width: 320px;
+}
+
+.content {
+  text-align: center;
+  margin-top: 16px;
+  padding: 0px 16px;
+}
+
+.content h1 {
+  color: #1f314f;
+  padding-bottom: 0.65rem;
+}
+
+.content p {
+  color: #68778d;
+}
+
+/* Bold Weight */
+.outfit-bold {
+    font-family: "Outfit", serif;
+    font-size: 1.375rem; /* 22px */
+    line-height: 120%;
+    font-weight: 700;
+    
+}
+
+/* Normal Weight */
+.outfit-normal {
+  font-family: "Outfit", serif;
+  font-size: 0.9375rem; /* 15px */
+  line-height: 140%;
+  letter-spacing: 0.0125em; /* 0.2px */
+}
+
+
