@@ -25,23 +25,24 @@ body {
 
 .qr-box img {
   border-radius: 1.05rem;
-  height: 320px;
-  width: 320px;
+  max-width: 320px;
+  max-height: 320px;
 }
 
 .content {
   text-align: center;
-  margin-top: 16px;
-  padding: 0px 16px;
+  margin-top: 1rem;
+  padding: 0px 1rem;
 }
 
 .content h1 {
   color: #1f314f;
-  padding-bottom: 0.65rem;
+  padding-bottom: 1rem;
 }
 
 .content p {
   color: #68778d;
+  padding: 0 1rem;
 }
 
 /* Bold Weight */
